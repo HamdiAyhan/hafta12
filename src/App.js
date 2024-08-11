@@ -35,7 +35,7 @@ function App() {
       >
         <div className="ms-2 me-auto">
           <div className="fw-bold">{haber.title}</div> <strong>Yazar : </strong> 
-          {haber.author}
+          {haber.author} "  " 
           <button><CallMadeIcon url={haber.url} /></button>
         </div>
         <Badge bg="primary" pill>
